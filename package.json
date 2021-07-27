@@ -1,0 +1,29 @@
+{
+  "name": "aruba-netedit",
+  "version": "1.0.0",
+  "description": "Superagent utilities for interacting with the Aruba NetEdit REST API",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashersaupingomez/aruba-netedit.git"
+  },
+  "author": "Asher Gomez <ashersaupingomez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashersaupingomez/aruba-netedit/issues"
+  },
+  "homepage": "https://github.com/ashersaupingomez/aruba-netedit#readme",
+  "dependencies": {
+    "baretest": "^2.0.0",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
